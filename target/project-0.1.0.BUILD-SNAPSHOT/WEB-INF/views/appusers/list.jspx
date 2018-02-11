@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_com_roo_project_domain_AppUser" items="${appusers}" z="vkFlpFBoe4dVH7MV9n7s/0NpHao=">
+        <table:table data="${appusers}" id="l_com_roo_project_domain_AppUser" path="/appusers" z="lpbjr9YmH9s5DOWx/Qkotc4XfJA=">
+            <table:column id="c_com_roo_project_domain_AppUser_createdBy" property="createdBy" z="h66f59LWxA99vkrQDe+oDQPMv6w="/>
+            <table:column id="c_com_roo_project_domain_AppUser_updatedBy" property="updatedBy" z="LhEsC9YjYU6P3u0lkAbZFBi3/Xg="/>
+            <table:column id="c_com_roo_project_domain_AppUser_status" property="status" z="6p6Cavj3+9hvjwp25fj+LWq/V8I="/>
+            <table:column date="true" dateTimePattern="${appUser_createddate_date_format}" id="c_com_roo_project_domain_AppUser_createdDate" property="createdDate" z="CFxLARsp90U18oj1P6j2UxIX2aU="/>
+            <table:column date="true" dateTimePattern="${appUser_updateddate_date_format}" id="c_com_roo_project_domain_AppUser_updatedDate" property="updatedDate" z="rYMKFLvr1+V22O2sX3VM4a0ZUfI="/>
+            <table:column id="c_com_roo_project_domain_AppUser_userName" property="userName" z="7feau8p+CQIWsJSmYfkyIUOFR5U="/>
+        </table:table>
+    </page:list>
+</div>

@@ -1,0 +1,38 @@
+<aspectj>
+<aspects>
+<aspect name="com.roo.project.base.BaseEntity_Roo_JavaBean"/>
+<aspect name="com.roo.project.AppUserController_Roo_Controller_Json"/>
+<aspect name="com.roo.project.domain.AppUser_Custom_Jpa_ActiveRecord"/>
+<aspect name="com.roo.project.domain.AppUserRole_Roo_Jpa_Entity"/>
+<aspect name="com.roo.project.base.BaseEntity_Roo_ToString"/>
+<aspect name="com.roo.project.domain.AppRole_Roo_Jpa_Entity"/>
+<aspect name="com.roo.project.domain.AppUserRole_Roo_ToString"/>
+<aspect name="com.roo.project.domain.AppUserRole_Roo_Configurable"/>
+<aspect name="com.roo.project.base.BaseEntity_Roo_Jpa_Entity"/>
+<aspect name="com.roo.project.domain.AppRole_Roo_Configurable"/>
+<aspect name="com.roo.project.base.BaseEntity_Roo_Json"/>
+<aspect name="com.roo.project.domain.AppUserRole_Roo_JavaBean"/>
+<aspect name="com.roo.project.domain.AppRole_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.roo.project.AppRoleController_Roo_Controller_Json"/>
+<aspect name="com.roo.project.AppUserRoleController_Roo_Controller_Json"/>
+<aspect name="com.roo.project.domain.AppUser_Roo_ToString"/>
+<aspect name="com.roo.project.AppUserController_Roo_Controller"/>
+<aspect name="com.roo.project.base.BaseEntity_Roo_Configurable"/>
+<aspect name="com.roo.project.base.BaseEntity_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.roo.project.domain.AppUser_Roo_JavaBean"/>
+<aspect name="com.roo.project.domain.AppUserRole_Custom_Jpa_ActiveRecord"/>
+<aspect name="com.roo.project.domain.AppRole_Roo_Json"/>
+<aspect name="com.roo.project.domain.AppUser_Roo_Jpa_Entity"/>
+<aspect name="com.roo.project.domain.AppRole_Roo_JavaBean"/>
+<aspect name="com.roo.project.AppUserRoleController_Roo_Controller"/>
+<aspect name="com.roo.project.domain.AppUserRole_Roo_Json"/>
+<aspect name="com.roo.project.domain.AppUser_Roo_Configurable"/>
+<aspect name="com.roo.project.AppRoleController_Roo_Controller"/>
+<aspect name="com.roo.project.domain.AppUser_Roo_Jpa_ActiveRecord"/>
+<aspect name="com.roo.project.web.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="com.roo.project.domain.AppRole_Roo_ToString"/>
+<aspect name="com.roo.project.domain.AppUser_Roo_Json"/>
+<aspect name="com.roo.project.domain.AppUserRole_Roo_Jpa_ActiveRecord"/>
+</aspects>
+</aspectj>
+

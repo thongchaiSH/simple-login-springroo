@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_project_domain_AppRole" object="${approle}" path="/approles" z="pY948ZnM0vYxJrHn8VFU3hTaz0s=">
+        <field:display field="createdBy" id="s_com_roo_project_domain_AppRole_createdBy" object="${approle}" z="AD65r1B/n+ToHlW4knpomFSQKqE="/>
+        <field:display field="updatedBy" id="s_com_roo_project_domain_AppRole_updatedBy" object="${approle}" z="lkh+KmieA6tyX4sxhLNksGe30os="/>
+        <field:display field="status" id="s_com_roo_project_domain_AppRole_status" object="${approle}" z="nH9Al53SNsPi+a5HYv0eP9WGXeU="/>
+        <field:display date="true" dateTimePattern="${appRole_createddate_date_format}" field="createdDate" id="s_com_roo_project_domain_AppRole_createdDate" object="${approle}" z="McHRfo3rSaeqityuSKu4X3dT/T4="/>
+        <field:display date="true" dateTimePattern="${appRole_updateddate_date_format}" field="updatedDate" id="s_com_roo_project_domain_AppRole_updatedDate" object="${approle}" z="lxqG5WzTtyxcTSBJJkpYwM8XgOE="/>
+        <field:display field="name" id="s_com_roo_project_domain_AppRole_name" object="${approle}" z="A4n6Q2glSmqb4GtSQVDK1wjMz30="/>
+    </page:show>
+</div>

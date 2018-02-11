@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_com_roo_project_domain_AppUser" object="${appuser}" path="/appusers" z="95KZsadvwttwqnpV/Lk2YU9miz0=">
+        <field:display field="createdBy" id="s_com_roo_project_domain_AppUser_createdBy" object="${appuser}" z="N1SXNxp1FTQs2DheKsu5newoxrE="/>
+        <field:display field="updatedBy" id="s_com_roo_project_domain_AppUser_updatedBy" object="${appuser}" z="Ur8BiZ221u17NnRKK9W7S1/1A8w="/>
+        <field:display field="status" id="s_com_roo_project_domain_AppUser_status" object="${appuser}" z="Ly/Ihw9//VQH9Y1HAX86zV77QG0="/>
+        <field:display date="true" dateTimePattern="${appUser_createddate_date_format}" field="createdDate" id="s_com_roo_project_domain_AppUser_createdDate" object="${appuser}" z="J8c1QXi5vuvMfVFwow4fVZqn3Zw="/>
+        <field:display date="true" dateTimePattern="${appUser_updateddate_date_format}" field="updatedDate" id="s_com_roo_project_domain_AppUser_updatedDate" object="${appuser}" z="4u43BCvX/MNIigWmjKm50T8Ev+A="/>
+        <field:display field="userName" id="s_com_roo_project_domain_AppUser_userName" object="${appuser}" z="d6hvXesdhW++TIf+hDM0dXJZHzk="/>
+        <field:display field="password" id="s_com_roo_project_domain_AppUser_password" object="${appuser}" z="BqThg5rHucvS37bcGJAsFiWM11k="/>
+    </page:show>
+</div>

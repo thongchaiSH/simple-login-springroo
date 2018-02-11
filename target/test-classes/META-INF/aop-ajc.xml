@@ -1,0 +1,17 @@
+<aspectj>
+<aspects>
+<aspect name="com.roo.project.domain.AppRoleIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.roo.project.domain.AppUserRoleIntegrationTest_Roo_Configurable"/>
+<aspect name="com.roo.project.domain.AppRoleDataOnDemand_Roo_Configurable"/>
+<aspect name="com.roo.project.domain.AppUserRoleIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.roo.project.domain.AppUserDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.roo.project.domain.AppUserRoleDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.roo.project.domain.AppUserDataOnDemand_Roo_Configurable"/>
+<aspect name="com.roo.project.domain.AppUserIntegrationTest_Roo_Configurable"/>
+<aspect name="com.roo.project.domain.AppUserIntegrationTest_Roo_IntegrationTest"/>
+<aspect name="com.roo.project.domain.AppRoleIntegrationTest_Roo_Configurable"/>
+<aspect name="com.roo.project.domain.AppRoleDataOnDemand_Roo_DataOnDemand"/>
+<aspect name="com.roo.project.domain.AppUserRoleDataOnDemand_Roo_Configurable"/>
+</aspects>
+</aspectj>
+

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:menu="urn:jsptagdir:/WEB-INF/tags/menu" id="menu" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <menu:menu id="_menu" z="nZaf43BjUg1iM0v70HJVEsXDopc=">
+        <menu:category id="c_appuser" z="cRddFjEd+tY/sB3uFILzC627HG4=">
+            <menu:item id="i_appuser_new" messageCode="global_menu_new" url="/appusers?form" z="WiHW92wA1LAtLb8e1wUckLwfr5Y="/>
+            <menu:item id="i_appuser_list" messageCode="global_menu_list" url="/appusers?page=1&amp;size=${empty param.size ? 10 : param.size}" z="P7xJtmb2eX6uz538bncoLyeRzlM="/>
+        </menu:category>
+        <menu:category id="c_approle" z="Jt5g47NR6sFIwC0UmcTXlkZRr84=">
+            <menu:item id="i_approle_new" messageCode="global_menu_new" url="/approles?form" z="M2wjb51DSDER7FzvMEN6iwd9qe0="/>
+            <menu:item id="i_approle_list" messageCode="global_menu_list" url="/approles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="6P9Z/GJhHaCRZ5uH/jV9UaYvRfo="/>
+        </menu:category>
+        <menu:category id="c_appuserrole" z="KpmmSfn5mTHPq3OV+9nnpJDLGBU=">
+            <menu:item id="i_appuserrole_new" messageCode="global_menu_new" url="/appuserroles?form" z="d03tepY5PXDwpQj5enzAtb+VutM="/>
+            <menu:item id="i_appuserrole_list" messageCode="global_menu_list" url="/appuserroles?page=1&amp;size=${empty param.size ? 10 : param.size}" z="S5D5xfvaHor9RSaz1P2yoJ7Hl18="/>
+        </menu:category>
+    </menu:menu>
+</div>

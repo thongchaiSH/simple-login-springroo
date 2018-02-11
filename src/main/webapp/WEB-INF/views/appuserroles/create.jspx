@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:spring="http://www.springframework.org/tags" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:create id="fc_com_roo_project_domain_AppUserRole" modelAttribute="appUserRole" path="/appuserroles" render="${empty dependencies}" z="ES1KbBWmXsFwKgjNyBXH1IxXd6E=">
+        <field:input field="createdBy" id="c_com_roo_project_domain_AppUserRole_createdBy" z="BMOojmgH6s04LxC05pfxPCdpyQA="/>
+        <field:input field="updatedBy" id="c_com_roo_project_domain_AppUserRole_updatedBy" z="6HmY/rw9fj2+Cyozo6gtWvFm2lA="/>
+        <field:input field="status" id="c_com_roo_project_domain_AppUserRole_status" z="d4NuXHHWA/9YiKuYzoKRKDoCPco="/>
+        <field:datetime dateTimePattern="${appUserRole_createddate_date_format}" field="createdDate" id="c_com_roo_project_domain_AppUserRole_createdDate" z="dlAcDvOnjEZLnVciF36zvNcksLI="/>
+        <field:datetime dateTimePattern="${appUserRole_updateddate_date_format}" field="updatedDate" id="c_com_roo_project_domain_AppUserRole_updatedDate" z="3yKypNRKwvwgkk0zBQe7GLaPwLY="/>
+        <field:select field="appUser" id="c_com_roo_project_domain_AppUserRole_appUser" itemValue="id" items="${appusers}" path="/appusers" z="zaJp6HBUE/lsarWSX8YDH6TgQ64="/>
+        <field:select field="appRole" id="c_com_roo_project_domain_AppUserRole_appRole" itemValue="id" items="${approles}" path="/approles" z="So4z8WWq7txg6N5JO3Aj6FZ/SEU="/>
+    </form:create>
+    <form:dependency dependencies="${dependencies}" id="d_com_roo_project_domain_AppUserRole" render="${not empty dependencies}" z="pDIBzaPF9l32bME5oMd39TJF01I="/>
+</div>
